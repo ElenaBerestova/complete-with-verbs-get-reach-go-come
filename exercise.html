@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Verbs Exercise</title>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=aWAOF3JtrvU8bn-ByLNTFb81ejcdEPW0b2z5_q0PL7EuZD1qhOngdlQ4n4MTT_dXT46BYB_XkHAmeLu0H9ND7-1Ilpr82Y_V9UfbHcf_92zEsUYzfvrFp0rVkjgQwzpe-vY21u46Gb_C7PDmDyBa0UIXySUSNYCdyiwh_yOD2Q-Ukf2xXFlb7efQcOrJxmxq0lQCFCv16gkBvg4E37-nWfVmJitQ17fUZTsLvC0xHdd4jK-eX_zVU3jTrCbKFZciKpAWVBQbx22LquSNfjBO0JxOw2kxSpfE5F0hAVMJR_XxOO3-3ARQrDY62rlfGj_M" charset="UTF-8"></script><style>
+        :root {
+            --primary-color: #4a90e2;
+            --success-color: #2ecc71;
+            --error-color: #e74c3c;
+            --text-color: #2c3e50;
+            --bg-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .exercise-container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-size: 24px;
+        }
+
+        .instruction {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .column {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .item {
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+
+        select {
+            padding: 6px 10px;
+            margin-right: 8px;
+            border: 2px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            color: var(--text-color);
+            background-color: white;
+            cursor: pointer;
+            transition: all 0.2s;
+            width: 85px;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        select.correct {
+            border-color: var(--success-color);
+            background-color: #e8f8f0;
+            color: #1e7e34;
+        }
+
+        select.incorrect {
+            border-color: var(--error-color);
+            background-color: #fce8e6;
+            color: #bd2130;
+        }
+
+        .btn-submit {
+            display: block;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin: 0 auto;
+        }
+
+        .btn-submit:hover {
+            background-color: #357abd;
+        }
+
+        .result-text {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="exercise-container">
+    <h2>Complete the blanks</h2>
+    <p class="instruction">Fill in the blanks with the verbs: <b>go</b>, <b>come</b>, <b>reach</b> or <b>get</b>.</p>
+
+    <div class="grid-container">
+        <!-- Колонка 1 -->
+        <div class="column">
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>better</span>
+            </div>
+            <div class="item">
+                <select data-answer="reach"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>a decision</span>
+            </div>
+            <div class="item">
+                <select data-answer="come"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>to terms with</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>into trouble</span>
+            </div>
+            <div class="item">
+                <select data-answer="go"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>dark</span>
+            </div>
+        </div>
+
+        <!-- Колонка 2 -->
+        <div class="column">
+            <div class="item">
+                <select data-answer="go"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>to sleep</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>rid of</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>ready</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>the sack</span>
+            </div>
+            <div class="item">
+                <select data-answer="come"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>in handy</span>
+            </div>
+        </div>
+
+        <!-- Колонка 3 -->
+        <div class="column">
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>revenge</span>
+            </div>
+            <div class="item">
+                <select data-answer="go"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>red</span>
+            </div>
+            <div class="item">
+                <select data-answer="reach"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>an agreement</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>lost</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>the job</span>
+            </div>
+        </div>
+
+        <!-- Колонка 4 -->
+        <div class="column">
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>on sb's nerves</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>off sb's back</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>down to business</span>
+            </div>
+            <div class="item">
+                <select data-answer="go"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>over the top</span>
+            </div>
+            <div class="item">
+                <select data-answer="get"><option value="">...</option><option value="go">go</option><option value="come">come</option><option value="reach">reach</option><option value="get">get</option></select>
+                <span>even with</span>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn-submit" onclick="checkAnswers()">Проверить ответы</button>
+    <div class="result-text" id="result"></div>
+</div>
+
+<script>
+    function checkAnswers() {
+        const selects = document.querySelectorAll('select');
+        let correctCount = 0;
+        const total = selects.length;
+
+        selects.forEach(select => {
+            const userAnswer = select.value;
+            const correctAnswer = select.getAttribute('data-answer');
+
+            if (userAnswer === correctAnswer) {
+                select.className = 'correct';
+                correctCount++;
+            } else {
+                select.className = 'incorrect';
+            }
+        });
+
+        const resultDiv = document.getElementById('result');
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = `Результат: ${correctCount} из ${total}`;
+        
+        if(correctCount === total) {
+            resultDiv.style.color = '#2ecc71';
+            resultDiv.innerHTML += ' 🎉 Отличная работа!';
+        } else {
+            resultDiv.style.color = '#e74c3c';
+        }
+    }
+</script>
+
+</body>
+</html>
